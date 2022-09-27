@@ -1,10 +1,11 @@
 import './App.css';
+import Hero from "./component/Hero/hero";
 function App() {
-  return (
-    <div className="App">
-          <span style={{color: 'white'}}>Subscribe Zainkeepscode</span>
-    </div>
-  );
+    return (
+        <div className="App">
+        <Hero/>
+        </div>
+    );
 }
 
 export default App;
