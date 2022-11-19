@@ -11,6 +11,7 @@
 .right-h{
     flex: 1;
     position: relative;
+    justify-content: space-between;
     background-color: #4834d4;
 }
 .the-best-ad{
