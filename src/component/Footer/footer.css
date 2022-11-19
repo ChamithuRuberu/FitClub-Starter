@@ -1,0 +1,53 @@
+.footer-container{
+    position: relative;
+
+}
+
+.footer-container>hr{
+    border: 1px solid var(--caloryCard);
+    margin-top: -30px;
+    margin-bottom: -10px;
+
+}
+.footer{
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+    height: 20rem;
+
+}
+.social-links>img{
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+
+}
+.social-links{
+    display: flex;
+    gap: 4rem;
+}
+
+.logo-f>img{
+    width: 10rem;
+    margin-bottom: 20px;
+}
+
+.blur-1{
+    right:15%;
+    bottom: 0;
+    width: 86rem;
+    filter:blur(200px);
+    background: #4834d4;
+}
+.blur-2{
+
+    left:15%;
+    bottom: 0;
+    width: 86rem;
+    height: -11rem;
+    filter:blur(200px);
+    background: #7265d2;
+}

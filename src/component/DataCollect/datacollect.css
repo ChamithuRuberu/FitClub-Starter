@@ -1,0 +1,77 @@
+.stroke-text{
+    margin-left: 20px;
+}
+
+.normal-txt{
+    margin-left: 20px;
+
+}
+.Joins{
+
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+.joinbtn{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 2rem;
+    gap: 10rem;
+    border-radius: 5px;
+    border: none;
+
+
+}
+.left-j{
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+}
+/*.left-j>hr{*/
+/*    position: absolute;*/
+/*    width: 100rem;*/
+/*    border: 2px solid #4834d4;*/
+/*    border-radius: 20%;*/
+/*    margin: -28px 0;*/
+/*    display: flex;*/
+
+/*}*/
+
+.left-j>div{
+    display: flex;
+    gap: 1rem;
+}
+
+.right-j{
+    display: flex;
+    align-items: flex-end;
+    margin-left: 10px;
+
+}
+
+.email-container{
+    position: relative;
+    display: flex;
+    gap: 2rem;
+    background-color: #4834d4;
+    padding: 1rem 1rem;
+    margin-top: 20px;
+    margin-bottom: -3px;
+    height: 50px;
+    margin-left: 520px;
+}
+.email-container>input{
+    background-color: #ece5e5;
+    border: none;
+    outline: none;
+    color:#4834d4;
+    width: 280px;
+    border-radius: 5px;
+
+}
+.placeholder{
+    color:#4834d4;
+}
+

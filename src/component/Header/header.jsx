@@ -9,11 +9,12 @@ const Header = () => {
 
             <img src={logo}  alt="" className="logo"/>
             <ul className="navbar">
-                <li>Home</li>
                 <li>Programs</li>
+                <li>Trainers</li>
                 <li>Why Us</li>
                 <li>Plans</li>
                 <li>Supplements</li>
+                <li>Sign up</li>
             </ul>
         </div>
     )

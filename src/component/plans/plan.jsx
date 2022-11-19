@@ -7,10 +7,14 @@ const Plan = () => {
     return(
 
         <div className="container">
+            <div className="plans-container">
+                <div className="blur plans-blur-1"></div>
+                <div className="blur plans-blur-2"></div>
+            </div>
 
             <div className="Program-header" style={{gap:'2rem'}}>
                 <span className="stroke-text">ready to start</span>
-                <span>start your journey</span>
+                <span >start your journey</span>
                 <span className="stroke-text">Now with us</span>
             </div>
 

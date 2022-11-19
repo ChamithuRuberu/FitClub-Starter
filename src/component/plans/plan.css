@@ -11,32 +11,34 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 3rem;
+    gap: 5rem;
 }
 
 .plan{
     display: flex;
     flex-direction: column;
     background:var(--caloryCard);
-    color: white;
+    color: #fafaff;
     gap: 1.74rem;
     padding: 1.5rem;
     width: 15rem;
 }
 
 .plan:nth-child(2){
-    background:var(--appColor);
+    background:#4834d4;
     transform: scale(1.1);
+
 }
 
 .plan>svg{
-    fill:var(--orange );
+    fill: #fafaff;
     width: 2rem;
     height: 2rem;
 }
 .plan>:nth-child(2){
     font-size: 2rem;
     font-weight: bold;
+
 }
 .plan>:nth-child(3){
     font-size: 2rem;
@@ -61,11 +63,24 @@
     width: 1rem;
 }
 .btn{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+
 }
-.plans>:nth-child(2)>svg{
-    fill: white;
-}
+
 .plans>:nth-child(2)>button{
     fill: royalblue;
+}
+.plans-blur-1{
+    width: 32rem;
+    height: 23rem;
+    top: 6rem;
+    left: 0rem;
+}
+.plans-blur-2{
+    width: 52rem;
+    height: 27rem;
+    top: 20rem;
+    border-radius: 50%;
+    right: 0rem;
 }
